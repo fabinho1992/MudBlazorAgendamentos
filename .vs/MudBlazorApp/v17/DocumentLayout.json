@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\TreinosBlazor\\MudBlazor\\MudBlazorApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C8DE9B0E-C7A2-4D29-BD61-8CC8A1EB5779}|MudBlazorApp\\MudBlazorApp.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\treinosblazor\\mudblazor\\mudblazorapp\\mudblazorapp\\data\\configurations\\agendamentoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8DE9B0E-C7A2-4D29-BD61-8CC8A1EB5779}|MudBlazorApp\\MudBlazorApp.csproj|solutionrelative:mudblazorapp\\data\\configurations\\agendamentoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8DE9B0E-C7A2-4D29-BD61-8CC8A1EB5779}|MudBlazorApp\\MudBlazorApp.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\treinosblazor\\mudblazor\\mudblazorapp\\mudblazorapp\\models\\agendamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8DE9B0E-C7A2-4D29-BD61-8CC8A1EB5779}|MudBlazorApp\\MudBlazorApp.csproj|solutionrelative:mudblazorapp\\models\\agendamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8DE9B0E-C7A2-4D29-BD61-8CC8A1EB5779}|MudBlazorApp\\MudBlazorApp.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\treinosblazor\\mudblazor\\mudblazorapp\\mudblazorapp\\data\\configurations\\especialidadeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8DE9B0E-C7A2-4D29-BD61-8CC8A1EB5779}|MudBlazorApp\\MudBlazorApp.csproj|solutionrelative:mudblazorapp\\data\\configurations\\especialidadeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8DE9B0E-C7A2-4D29-BD61-8CC8A1EB5779}|MudBlazorApp\\MudBlazorApp.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\treinosblazor\\mudblazor\\mudblazorapp\\mudblazorapp\\data\\configurations\\medicoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8DE9B0E-C7A2-4D29-BD61-8CC8A1EB5779}|MudBlazorApp\\MudBlazorApp.csproj|solutionrelative:mudblazorapp\\data\\configurations\\medicoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8DE9B0E-C7A2-4D29-BD61-8CC8A1EB5779}|MudBlazorApp\\MudBlazorApp.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\treinosblazor\\mudblazor\\mudblazorapp\\mudblazorapp\\models\\especialidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8DE9B0E-C7A2-4D29-BD61-8CC8A1EB5779}|MudBlazorApp\\MudBlazorApp.csproj|solutionrelative:mudblazorapp\\models\\especialidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8DE9B0E-C7A2-4D29-BD61-8CC8A1EB5779}|MudBlazorApp\\MudBlazorApp.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\treinosblazor\\mudblazor\\mudblazorapp\\mudblazorapp\\models\\medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8DE9B0E-C7A2-4D29-BD61-8CC8A1EB5779}|MudBlazorApp\\MudBlazorApp.csproj|solutionrelative:mudblazorapp\\models\\medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8DE9B0E-C7A2-4D29-BD61-8CC8A1EB5779}|MudBlazorApp\\MudBlazorApp.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\treinosblazor\\mudblazor\\mudblazorapp\\mudblazorapp\\data\\configurations\\pacienteconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8DE9B0E-C7A2-4D29-BD61-8CC8A1EB5779}|MudBlazorApp\\MudBlazorApp.csproj|solutionrelative:mudblazorapp\\data\\configurations\\pacienteconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8DE9B0E-C7A2-4D29-BD61-8CC8A1EB5779}|MudBlazorApp\\MudBlazorApp.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\treinosblazor\\mudblazor\\mudblazorapp\\mudblazorapp\\models\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8DE9B0E-C7A2-4D29-BD61-8CC8A1EB5779}|MudBlazorApp\\MudBlazorApp.csproj|solutionrelative:mudblazorapp\\models\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AgendamentoConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\TreinosBlazor\\MudBlazor\\MudBlazorApp\\MudBlazorApp\\Data\\Configurations\\AgendamentoConfiguration.cs",
+              "RelativeDocumentMoniker": "MudBlazorApp\\Data\\Configurations\\AgendamentoConfiguration.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\TreinosBlazor\\MudBlazor\\MudBlazorApp\\MudBlazorApp\\Data\\Configurations\\AgendamentoConfiguration.cs",
+              "RelativeToolTip": "MudBlazorApp\\Data\\Configurations\\AgendamentoConfiguration.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T14:38:05.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EspecialidadeConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\TreinosBlazor\\MudBlazor\\MudBlazorApp\\MudBlazorApp\\Data\\Configurations\\EspecialidadeConfiguration.cs",
+              "RelativeDocumentMoniker": "MudBlazorApp\\Data\\Configurations\\EspecialidadeConfiguration.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\TreinosBlazor\\MudBlazor\\MudBlazorApp\\MudBlazorApp\\Data\\Configurations\\EspecialidadeConfiguration.cs",
+              "RelativeToolTip": "MudBlazorApp\\Data\\Configurations\\EspecialidadeConfiguration.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwBYAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T14:32:41.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MedicoConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\TreinosBlazor\\MudBlazor\\MudBlazorApp\\MudBlazorApp\\Data\\Configurations\\MedicoConfiguration.cs",
+              "RelativeDocumentMoniker": "MudBlazorApp\\Data\\Configurations\\MedicoConfiguration.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\TreinosBlazor\\MudBlazor\\MudBlazorApp\\MudBlazorApp\\Data\\Configurations\\MedicoConfiguration.cs",
+              "RelativeToolTip": "MudBlazorApp\\Data\\Configurations\\MedicoConfiguration.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T13:25:29.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Especialidade.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\TreinosBlazor\\MudBlazor\\MudBlazorApp\\MudBlazorApp\\Models\\Especialidade.cs",
+              "RelativeDocumentMoniker": "MudBlazorApp\\Models\\Especialidade.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\TreinosBlazor\\MudBlazor\\MudBlazorApp\\MudBlazorApp\\Models\\Especialidade.cs",
+              "RelativeToolTip": "MudBlazorApp\\Models\\Especialidade.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAkAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T12:48:54.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Agendamento.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\TreinosBlazor\\MudBlazor\\MudBlazorApp\\MudBlazorApp\\Models\\Agendamento.cs",
+              "RelativeDocumentMoniker": "MudBlazorApp\\Models\\Agendamento.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\TreinosBlazor\\MudBlazor\\MudBlazorApp\\MudBlazorApp\\Models\\Agendamento.cs",
+              "RelativeToolTip": "MudBlazorApp\\Models\\Agendamento.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T12:45:06.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PacienteConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\TreinosBlazor\\MudBlazor\\MudBlazorApp\\MudBlazorApp\\Data\\Configurations\\PacienteConfiguration.cs",
+              "RelativeDocumentMoniker": "MudBlazorApp\\Data\\Configurations\\PacienteConfiguration.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\TreinosBlazor\\MudBlazor\\MudBlazorApp\\MudBlazorApp\\Data\\Configurations\\PacienteConfiguration.cs",
+              "RelativeToolTip": "MudBlazorApp\\Data\\Configurations\\PacienteConfiguration.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T13:05:45.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Medico.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\TreinosBlazor\\MudBlazor\\MudBlazorApp\\MudBlazorApp\\Models\\Medico.cs",
+              "RelativeDocumentMoniker": "MudBlazorApp\\Models\\Medico.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\TreinosBlazor\\MudBlazor\\MudBlazorApp\\MudBlazorApp\\Models\\Medico.cs",
+              "RelativeToolTip": "MudBlazorApp\\Models\\Medico.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T12:41:38.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Paciente.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\TreinosBlazor\\MudBlazor\\MudBlazorApp\\MudBlazorApp\\Models\\Paciente.cs",
+              "RelativeDocumentMoniker": "MudBlazorApp\\Models\\Paciente.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\TreinosBlazor\\MudBlazor\\MudBlazorApp\\MudBlazorApp\\Models\\Paciente.cs",
+              "RelativeToolTip": "MudBlazorApp\\Models\\Paciente.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAwAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T12:37:23.305Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
