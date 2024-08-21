@@ -5,6 +5,10 @@ using MudBlazor.Services;
 using MudBlazorApp.Components;
 using MudBlazorApp.Components.Account;
 using MudBlazorApp.Data;
+using MudBlazorApp.Repositories.Agendamentos;
+using MudBlazorApp.Repositories.Especialidades;
+using MudBlazorApp.Repositories.Medicos;
+using MudBlazorApp.Repositories.Pacientes;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -40,6 +44,12 @@ builder.Services.AddIdentityCore<ApplicationUser>()
     .AddDefaultTokenProviders();
 
 builder.Services.AddSingleton<IEmailSender<ApplicationUser>, IdentityNoOpEmailSender>();
+
+//Injeção de dependencia
+builder.Services.AddScoped<IPacienteRepository, PacienteRepository>();
+builder.Services.AddScoped<IMedicoRepository, MedicoRepository>();
+builder.Services.AddScoped<IAgendamentoRepository, AgendamentoRepository>();
+builder.Services.AddScoped<IEspecialidadesRepository, EspecialidadeRepository>();
 
 var app = builder.Build();
 

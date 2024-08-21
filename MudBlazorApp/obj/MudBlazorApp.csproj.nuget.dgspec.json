@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\AulasAluraBackEnd\\Treino\\ProjetosBlazor\\ProjetosBlazorAulas\\MudBlazorAgendamento\\MudBlazorAgendamentos\\MudBlazorApp\\MudBlazorApp.csproj": {}
+    "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\TreinosBlazor\\MudBlazor\\MudBlazorApp\\MudBlazorApp\\MudBlazorApp.csproj": {}
   },
   "projects": {
-    "C:\\AulasAluraBackEnd\\Treino\\ProjetosBlazor\\ProjetosBlazorAulas\\MudBlazorAgendamento\\MudBlazorAgendamentos\\MudBlazorApp\\MudBlazorApp.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\TreinosBlazor\\MudBlazor\\MudBlazorApp\\MudBlazorApp\\MudBlazorApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\AulasAluraBackEnd\\Treino\\ProjetosBlazor\\ProjetosBlazorAulas\\MudBlazorAgendamento\\MudBlazorAgendamentos\\MudBlazorApp\\MudBlazorApp.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\TreinosBlazor\\MudBlazor\\MudBlazorApp\\MudBlazorApp\\MudBlazorApp.csproj",
         "projectName": "MudBlazorApp",
-        "projectPath": "C:\\AulasAluraBackEnd\\Treino\\ProjetosBlazor\\ProjetosBlazorAulas\\MudBlazorAgendamento\\MudBlazorAgendamentos\\MudBlazorApp\\MudBlazorApp.csproj",
-        "packagesPath": "C:\\Users\\adm\\.nuget\\packages\\",
-        "outputPath": "C:\\AulasAluraBackEnd\\Treino\\ProjetosBlazor\\ProjetosBlazorAulas\\MudBlazorAgendamento\\MudBlazorAgendamentos\\MudBlazorApp\\obj\\",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\TreinosBlazor\\MudBlazor\\MudBlazorApp\\MudBlazorApp\\MudBlazorApp.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\TreinosBlazor\\MudBlazor\\MudBlazorApp\\MudBlazorApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\adm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -88,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
