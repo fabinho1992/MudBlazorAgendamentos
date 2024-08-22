@@ -18,6 +18,7 @@ namespace MudBlazorApp.Components.Pages.Pacientes
 
         public PacienteInputModel InputModel { get; set; } = new PacienteInputModel();
         public DateTime? DataNascimento { get; set; } = DateTime.Today;
+        public DateTime? MaxDate {  get; set; } = DateTime.Today;
 
         public async Task OnValidSubmitAsync(EditContext editContext)
         {

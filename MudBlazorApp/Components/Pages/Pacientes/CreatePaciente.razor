@@ -10,9 +10,9 @@
             HelperText="Campo obrigatório" @bind-Value = "InputModel.Nome" For="@(() => InputModel.Nome)">
         </MudTextField>
         <MudDatePicker Label="Data de Nascimento" Variant="Variant.Filled" Editable="false"
-                       @bind-Date="DataNascimento" Placeholder="Data de Nascimento" Class="mb-6">
+                       @bind-Date="DataNascimento" MaxDate="@MaxDate" Placeholder="Data de Nascimento" Class="mb-6">
         </MudDatePicker>
-        <MudTextField Label="Documento" Variant="Variant.Outlined"  
+        <MudTextField Label="Documento" Variant="Variant.Filled"  
             HelperText="Campo obrigatório" @bind-Value = "InputModel.Documento"
             For="@(() => InputModel.Documento)" Mask="@(new PatternMask("000.000.000-00"))">
         </MudTextField>

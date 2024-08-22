@@ -7,7 +7,7 @@
     <MudNavLink Href="counter" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.Add">Counter</MudNavLink>
     <MudNavLink Href="weather" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.List">Weather</MudNavLink>
     <MudNavLink Href="auth" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.Lock">Auth Required</MudNavLink>
-    <MudNavLink Href="pacientes" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.List">Lista Pacientes</MudNavLink>
+    <MudNavLink Href="pacientes" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.People">Lista Pacientes</MudNavLink>
     <AuthorizeView>
         <Authorized>
             <MudNavLink Href="Account/Manage" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.Person">@context.User.Identity?.Name</MudNavLink>
