@@ -201,12 +201,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/AulasAluraBackEnd/Treino/ProjetosBlazor/ProjetosBlazorAulas/MudBlazorAgendamento/MudBlazorAgendamentos/MudBlazorApp/Components/Pages/Medicos/CreateMedicos.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xNZWRpY29zXENyZWF0ZU1lZGljb3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AulasAluraBackEnd/Treino/ProjetosBlazor/ProjetosBlazorAulas/MudBlazorAgendamento/MudBlazorAgendamentos/MudBlazorApp/Components/Pages/Medicos/IndexMedicos.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xNZWRpY29zXEluZGV4TWVkaWNvcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AulasAluraBackEnd/Treino/ProjetosBlazor/ProjetosBlazorAulas/MudBlazorAgendamento/MudBlazorAgendamentos/MudBlazorApp/Components/Pages/Medicos/UpdateMedico.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xNZWRpY29zXFVwZGF0ZU1lZGljby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/AulasAluraBackEnd/Treino/ProjetosBlazor/ProjetosBlazorAulas/MudBlazorAgendamento/MudBlazorAgendamentos/MudBlazorApp/Components/Pages/Pacientes/CreatePaciente.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQYWNpZW50ZXNcQ3JlYXRlUGFjaWVudGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/AulasAluraBackEnd/Treino/ProjetosBlazor/ProjetosBlazorAulas/MudBlazorAgendamento/MudBlazorAgendamentos/MudBlazorApp/Components/Pages/Pacientes/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQYWNpZW50ZXNcSW5kZXgucmF6b3I=
+[C:/AulasAluraBackEnd/Treino/ProjetosBlazor/ProjetosBlazorAulas/MudBlazorAgendamento/MudBlazorAgendamentos/MudBlazorApp/Components/Pages/Pacientes/IndexPacientes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQYWNpZW50ZXNcSW5kZXhQYWNpZW50ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/AulasAluraBackEnd/Treino/ProjetosBlazor/ProjetosBlazorAulas/MudBlazorAgendamento/MudBlazorAgendamentos/MudBlazorApp/Components/Pages/Pacientes/UpdatePaciente.razor]

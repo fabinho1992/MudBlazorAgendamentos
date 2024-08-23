@@ -5,7 +5,7 @@ using MudBlazorApp.Repositories.Pacientes;
 
 namespace MudBlazorApp.Components.Pages
 {
-    public class IndexPage : ComponentBase
+    public class IndexPacientesPage : ComponentBase
     {
         [Inject]
         public IPacienteRepository Repository { get; set; } = null!;

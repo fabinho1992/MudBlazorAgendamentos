@@ -1,0 +1,43 @@
+﻿@page "/medicos/create"
+@inherits CreateMedicosPage
+
+<PageTitle>Médicos</PageTitle>
+
+<MudText Typo="Typo.h3">Cadastro Médico</MudText>
+
+<MudPaper Class="pa-8 mt-4">
+
+	<EditForm Model="@InputModel" OnValidSubmit="@OnValidSubmit">
+		<DataAnnotationsValidator/>
+		<MudTextField Label = "Nome" Variant=Variant.Outlined HelperText="Campo Obrigatório"
+					@bind-Value="InputModel.Nome" For="@(() => InputModel.Nome)">
+		</MudTextField>
+		<MudTextField Label="Documento" Variant=Variant.Outlined HelperText="Campo Obrigatório"
+					@bind-Value="InputModel.Documento" Mask="@(new PatternMask("000.000.000-00"))" For="@(() => InputModel.Documento)">
+		</MudTextField>
+		<MudTextField Label="Celular" Variant=Variant.Outlined HelperText="Campo Obrigatório"
+					@bind-Value="InputModel.Celular" Mask="@(new PatternMask("(00) 00000-0000"))" For="@(() => InputModel.Celular)">
+		</MudTextField>
+		<MudTextField Label="Crm" Variant=Variant.Outlined HelperText="Campo Obrigatório"
+					@bind-Value="InputModel.Crm" Mask="@(new PatternMask("(aa) 000000") )" For="@(() => InputModel.Crm)">
+		</MudTextField>
+		<MudSelect Text="" Variant=Variant.Outlined AnchorOrigin="Origin.BottomCenter"
+					HelperText="Campo Obrigatório" @bind-Value="InputModel.EspecialidadeId">
+					@foreach (var especialidade in Especialidades)
+			{
+				<MudSelectItem Value="@especialidade.Id">@especialidade.Nome</MudSelectItem>
+			}
+		</MudSelect>
+
+		<MudDivider Class="m-4"></MudDivider>
+
+		<MudButton Variant="Variant.Filled" StartIcon="@Icons.Material.Filled.Save"
+				   Color="Color.Info" Size="Size.Large" ButtonType="ButtonType.Submit" Class="mt-4">
+			Salvar
+		</MudButton>
+		<MudButton Variant="Variant.Filled" StartIcon="@Icons.Material.Filled.Refresh"
+				   Color="Color.Primary" Size="Size.Large" Href="/medicos" Class="mt-4">
+			Voltar
+		</MudButton>
+	</EditForm>
+</MudPaper>

@@ -15,8 +15,17 @@ namespace MudBlazorApp.Repositories.Medicos
 
         public async Task AddAsync(Medico medico)
         {
-            await _context.Medicos.AddAsync(medico);
-            await _context.SaveChangesAsync();
+            try
+            {
+                await _context.Medicos.AddAsync(medico);
+                await _context.SaveChangesAsync();
+            }
+            catch (Exception)
+            {
+                _context.ChangeTracker.Clear();
+                throw;
+            }
+            
         }
 
         public async Task DeleteAsync(int id)
@@ -39,8 +48,17 @@ namespace MudBlazorApp.Repositories.Medicos
 
         public async Task UpdateAsync(Medico medico)
         {
-            _context.Medicos.Update(medico);
-            await _context.SaveChangesAsync();
+            try
+            {
+                _context.Medicos.Update(medico);
+                await _context.SaveChangesAsync();
+            }
+            catch (Exception)
+            {
+                _context.ChangeTracker.Clear();
+                throw;
+            }
+            
         }
     }
 }
