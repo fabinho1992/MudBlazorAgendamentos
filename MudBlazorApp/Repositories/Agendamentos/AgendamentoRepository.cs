@@ -40,6 +40,15 @@ namespace MudBlazorApp.Repositories.Agendamentos
                 .SingleOrDefaultAsync(a => a.Id == id);
         }
 
+        public async Task<IEnumerable<AgendamentosAnuais>?> GetReportYear()
+        {
+            var result = _context.Database.SqlQuery<AgendamentosAnuais>
+                (
+                    $"SELECT MONTH(DATACONSULTA) AS MES, COUNT(*) AS QUANTIDADEAGENDAMENTOS FROM AGENDAMENTOS WHERE YEAR(DATACONSULTA) = '2024' GROUP BY MONTH(DATACONSULTA) ORDER BY MES "
+                );
+            return await Task.FromResult( result.ToList() );
+        }
+
         public async Task UpdateAsync(Agendamento agendamento)
         {
             _context.Agendamentos.Update(agendamento);

@@ -9,5 +9,6 @@ namespace MudBlazorApp.Repositories.Agendamentos
         Task<Agendamento?> GetByIdAsync(int id);
         Task UpdateAsync(Agendamento agendamento);
         Task DeleteAsync(int id);
+        Task<IEnumerable<AgendamentosAnuais>?> GetReportYear();
     }
 }
