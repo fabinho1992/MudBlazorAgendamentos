@@ -1,5 +1,8 @@
 ﻿@page "/pacientes"
+@using Microsoft.AspNetCore.Authorization
 @inherits IndexPacientesPage
+
+
 
 <MudText Typo="Typo.h3">Pacientes</MudText>
 <MudButton Color="Color.Info" Variant="Variant.Filled" StartIcon="@Icons.Material.Filled.Add"
@@ -14,8 +17,19 @@ Size="Size.Large" Href="/pacientes/create" Class="mt-4 mb-6" >Novo Paciente</Mud
         <TemplateColumn>
             <CellTemplate>
                 <MudStack Row>
-                    <MudFab Size="Size.Small" Label="Editar" StartIcon="@Icons.Material.Filled.Edit" @onclick ="@(() => GoToUpdate(context.Item.Id))"Color="Color.Success"/>
-                    <MudFab Size="Size.Small" Label="Excluir" StartIcon="@Icons.Material.Filled.Delete" @onclick="@(() => DeletePaciente(context.Item))" Color="Color.Error" />
+                    <MudFab Size="Size.Small" 
+                    Label="Editar" 
+                    StartIcon="@Icons.Material.Filled.Edit" 
+                    @onclick ="@(() => GoToUpdate(context.Item.Id))"
+                    Color="Color.Success"
+                    hidden="@HideButtons"/>
+
+                    <MudFab Size="Size.Small"
+                    Label="Excluir" 
+                    StartIcon="@Icons.Material.Filled.Delete" 
+                    @onclick="@(() => DeletePaciente(context.Item))" 
+                    Color="Color.Error" 
+                    hidden="@HideButtons"/>
                 </MudStack>
             </CellTemplate>
         </TemplateColumn>

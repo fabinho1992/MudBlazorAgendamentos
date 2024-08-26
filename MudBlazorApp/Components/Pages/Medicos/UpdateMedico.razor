@@ -1,5 +1,7 @@
 ﻿@page "/medicos/update/{MedicoId:int}"
+@using Microsoft.AspNetCore.Authorization
 @inherits UpdateMedicoPage
+@attribute [Authorize(Roles = "Atendente")]
 
 <PageTitle>Médicos</PageTitle>
 

@@ -2,4 +2,12 @@
 
 <PageTitle>Access denied</PageTitle>
 
-<MudAlert Severity="Severity.Error">You do not have access to this resource.</MudAlert>
+<MudStack Class="d-flex flex-column  align-items-center pl-20 pe-20" >
+    <MudText Class="mb-8 mt-8 d-flex justify-center" Typo="Typo.h4">Acesso Negado</MudText>
+    <MudDivider></MudDivider>
+    <MudButton Variant="Variant.Filled" StartIcon="@Icons.Material.Filled.Refresh"
+               Color="Color.Primary" Size="Size.Small" Href="/" Class=" mt-4 mb-4 pa-5 " 
+               >
+        Voltar
+    </MudButton>
+</MudStack>

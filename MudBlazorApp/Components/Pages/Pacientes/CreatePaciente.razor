@@ -1,5 +1,7 @@
 ﻿@page "/pacientes/create"
+@using Microsoft.AspNetCore.Authorization
 @inherits CreatePacientePage
+@attribute [Authorize(Roles = "Atendente")]
 
 <MudText Typo="Typo.h3" >Cadastro Paciente</MudText>
 
@@ -9,7 +11,7 @@
         <MudTextField Label="Nome" Variant="Variant.Filled"  
             HelperText="Campo obrigatório" @bind-Value = "InputModel.Nome" For="@(() => InputModel.Nome)">
         </MudTextField>
-        <MudDatePicker Label="Data de Nascimento" Variant="Variant.Filled" Editable="false"
+        <MudDatePicker Label="Data de Nascimento" Variant="Variant.Filled" Editable="false" AnchorOrigin="Origin.TopLeft"
                        @bind-Date="DataNascimento" MaxDate="@MaxDate" Placeholder="Data de Nascimento" Class="mb-6">
         </MudDatePicker>
         <MudTextField Label="Documento" Variant="Variant.Filled"  

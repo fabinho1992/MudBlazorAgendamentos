@@ -1,6 +1,7 @@
 ﻿@inherits LayoutComponentBase
+@inject NavigationManager Navigation
 
-<MudThemeProvider />
+<MudThemeProvider IsDarkMode="_isDark"/>
 <MudPopoverProvider />
 <MudDialogProvider />
 <MudSnackbarProvider />
@@ -10,6 +11,19 @@
         <MudText Typo="Typo.h5" Class="ml-3">Application</MudText>
         <MudSpacer />
         <MudIconButton Icon="@Icons.Material.Filled.MoreVert" Color="Color.Inherit" Edge="Edge.End" />
+        @if (_isDark)
+        {
+            <MudIconButton @onclick="DarkToggle" Icon="@Icons.Material.Filled.WbSunny" Color="Color.Inherit" />
+        }
+        else
+        {
+            <MudIconButton @onclick="DarkToggle" Icon="@Icons.Material.Filled.DarkMode" Color="Color.Inherit" />
+        }
+
+        <AuthorizeView>
+            <MudIconButton Icon="@Icons.Material.Outlined.ExitToApp" @onclick=LogOff Color="Color.Inherit"/>
+        </AuthorizeView>
+
     </MudAppBar>
     <MudDrawer @bind-Open="_drawerOpen" ClipMode="DrawerClipMode.Always" Elevation="2">
         <NavMenu />
@@ -28,10 +42,21 @@
 
 @code {
     private bool _drawerOpen = true;
+    private bool _isDark = true;
 
     private void DrawerToggle()
     {
         _drawerOpen = !_drawerOpen;
+    }
+
+    private void DarkToggle()
+    {
+        _isDark = !_isDark;
+    }
+
+    private void LogOff()
+    {
+        Navigation.NavigateTo("/Account/Manage/Logout");
     }
 
 }

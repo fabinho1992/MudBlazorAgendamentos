@@ -79,7 +79,6 @@ C:\AulasAluraBackEnd\Treino\ProjetosBlazor\ProjetosBlazorAulas\MudBlazorAgendame
 C:\AulasAluraBackEnd\Treino\ProjetosBlazor\ProjetosBlazorAulas\MudBlazorAgendamento\MudBlazorAgendamentos\MudBlazorApp\bin\Debug\net8.0\System.Runtime.Caching.dll
 C:\AulasAluraBackEnd\Treino\ProjetosBlazor\ProjetosBlazorAulas\MudBlazorAgendamento\MudBlazorAgendamentos\MudBlazorApp\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
 C:\AulasAluraBackEnd\Treino\ProjetosBlazor\ProjetosBlazorAulas\MudBlazorAgendamento\MudBlazorAgendamentos\MudBlazorApp\bin\Debug\net8.0\System.Security.Permissions.dll
-C:\AulasAluraBackEnd\Treino\ProjetosBlazor\ProjetosBlazorAulas\MudBlazorAgendamento\MudBlazorAgendamentos\MudBlazorApp\bin\Debug\net8.0\System.Text.Json.dll
 C:\AulasAluraBackEnd\Treino\ProjetosBlazor\ProjetosBlazorAulas\MudBlazorAgendamento\MudBlazorAgendamentos\MudBlazorApp\bin\Debug\net8.0\System.Windows.Extensions.dll
 C:\AulasAluraBackEnd\Treino\ProjetosBlazor\ProjetosBlazorAulas\MudBlazorAgendamento\MudBlazorAgendamentos\MudBlazorApp\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
 C:\AulasAluraBackEnd\Treino\ProjetosBlazor\ProjetosBlazorAulas\MudBlazorAgendamento\MudBlazorAgendamentos\MudBlazorApp\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
@@ -160,7 +159,6 @@ C:\AulasAluraBackEnd\Treino\ProjetosBlazor\ProjetosBlazorAulas\MudBlazorAgendame
 C:\AulasAluraBackEnd\Treino\ProjetosBlazor\ProjetosBlazorAulas\MudBlazorAgendamento\MudBlazorAgendamentos\MudBlazorApp\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MudBlazorApp.props
 C:\AulasAluraBackEnd\Treino\ProjetosBlazor\ProjetosBlazorAulas\MudBlazorAgendamento\MudBlazorAgendamentos\MudBlazorApp\obj\Debug\net8.0\staticwebassets.pack.json
 C:\AulasAluraBackEnd\Treino\ProjetosBlazor\ProjetosBlazorAulas\MudBlazorAgendamento\MudBlazorAgendamentos\MudBlazorApp\obj\Debug\net8.0\scopedcss\bundle\MudBlazorApp.styles.css
-C:\AulasAluraBackEnd\Treino\ProjetosBlazor\ProjetosBlazorAulas\MudBlazorAgendamento\MudBlazorAgendamentos\MudBlazorApp\obj\Debug\net8.0\MudBlazorApp.csproj.CopyComplete
 C:\AulasAluraBackEnd\Treino\ProjetosBlazor\ProjetosBlazorAulas\MudBlazorAgendamento\MudBlazorAgendamentos\MudBlazorApp\obj\Debug\net8.0\MudBlazorApp.dll
 C:\AulasAluraBackEnd\Treino\ProjetosBlazor\ProjetosBlazorAulas\MudBlazorAgendamento\MudBlazorAgendamentos\MudBlazorApp\obj\Debug\net8.0\refint\MudBlazorApp.dll
 C:\AulasAluraBackEnd\Treino\ProjetosBlazor\ProjetosBlazorAulas\MudBlazorAgendamento\MudBlazorAgendamentos\MudBlazorApp\obj\Debug\net8.0\MudBlazorApp.pdb
@@ -303,3 +301,4 @@ C:\Users\Usuario\Desktop\Cursos de Programação\TreinosBlazor\MudBlazor\MudBlaz
 C:\Users\Usuario\Desktop\Cursos de Programação\TreinosBlazor\MudBlazor\MudBlazorApp\MudBlazorApp\bin\Debug\net8.0\MudBlazorApp.runtimeconfig.json
 C:\Users\Usuario\Desktop\Cursos de Programação\TreinosBlazor\MudBlazor\MudBlazorApp\MudBlazorApp\obj\Debug\net8.0\MudBlazorApp.genruntimeconfig.cache
 C:\Users\Usuario\Desktop\Cursos de Programação\TreinosBlazor\MudBlazor\MudBlazorApp\MudBlazorApp\obj\Debug\net8.0\ref\MudBlazorApp.dll
+C:\AulasAluraBackEnd\Treino\ProjetosBlazor\ProjetosBlazorAulas\MudBlazorAgendamento\MudBlazorAgendamentos\MudBlazorApp\obj\Debug\net8.0\MudBlazo.CF26EFBA.Up2Date

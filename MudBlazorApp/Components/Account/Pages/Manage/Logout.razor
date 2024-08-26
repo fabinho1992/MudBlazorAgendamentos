@@ -1,0 +1,16 @@
+﻿@page "/Account/Manage/Logout"
+@using Microsoft.AspNetCore.Identity
+@using MudBlazorApp.Data
+@inject NavigationManager Navigation
+@inject SignInManager<ApplicationUser> SignInManager
+
+
+@code {
+
+	protected override async Task OnInitializedAsync()
+	{
+		await Task.Delay(2000);
+		await SignInManager.SignOutAsync();
+		Navigation.NavigateTo("/");
+	}
+}

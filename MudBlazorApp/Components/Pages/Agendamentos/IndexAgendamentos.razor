@@ -1,0 +1,38 @@
+﻿@page "/agendamentos"
+@inherits IndexAgendamentosPage
+
+<PageTitle>Agendamentos</PageTitle>
+
+<MudText Typo="Typo.h3">Agendamentos</MudText>
+<MudButton Color="Color.Info" Variant="Variant.Filled" StartIcon="@Icons.Material.Filled.Add"
+		   Size="Size.Large" Href="/agendamentos/create" Class="mt-4 mb-6">Novo Agendamento</MudButton>
+
+<MudStack Row Wrap="Wrap.Wrap" >
+	@foreach (var agendamento in Agendamentos)
+	{
+        <MudPaper Class="border-solid pa-2 mt-1" Outlined="true">
+            
+                <MudText Class="pa-2 mt-1 d-flex justify-center" Typo="Typo.h5">Agendamento</MudText>
+
+                <MudStack Row Class="mt-4">
+                    <MudText> Dr.@agendamento.Medico.Nome</MudText>
+                    <MudIcon Icon="@Icons.Material.Filled.Timer"></MudIcon>
+                    <MudText>@agendamento.Paciente.Nome</MudText>
+                </MudStack>
+
+                <MudText Typo="Typo.body2" Class="mt-4">@(agendamento.Observacao ?? "Sem observação...")</MudText>
+                <MudDivider Class="mt-4 mb-4"/>
+
+                <MudStack Row Class="d-flex justify-center mt-4 mb-2">
+                <MudChip T="string" Color="Color.Primary">@agendamento.DataConsulta.ToString("dd/MM/yyyy") às @agendamento.HoraConsulta</MudChip>
+                    <MudFab Size="Size.Small" 
+                        StartIcon="@Icons.Material.Filled.Delete"
+                        Color="Color.Error" 
+                        @onclick="@(()=> DeleteAgendamento(agendamento))"
+                        hidden="@HideButtons"/>
+                </MudStack>
+        </MudPaper>
+     
+	}
+
+</MudStack>

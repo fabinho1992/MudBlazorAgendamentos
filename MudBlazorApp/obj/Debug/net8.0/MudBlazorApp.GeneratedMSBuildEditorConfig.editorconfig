@@ -101,6 +101,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY2NvdW50XFBhZ2VzXE1hbmFnZVxJbmRleC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/AulasAluraBackEnd/Treino/ProjetosBlazor/ProjetosBlazorAulas/MudBlazorAgendamento/MudBlazorAgendamentos/MudBlazorApp/Components/Account/Pages/Manage/Logout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY2NvdW50XFBhZ2VzXE1hbmFnZVxMb2dvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/AulasAluraBackEnd/Treino/ProjetosBlazor/ProjetosBlazorAulas/MudBlazorAgendamento/MudBlazorAgendamentos/MudBlazorApp/Components/Account/Pages/Manage/PersonalData.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY2NvdW50XFBhZ2VzXE1hbmFnZVxQZXJzb25hbERhdGEucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -177,12 +181,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/AulasAluraBackEnd/Treino/ProjetosBlazor/ProjetosBlazorAulas/MudBlazorAgendamento/MudBlazorAgendamentos/MudBlazorApp/Components/Layout/LoginLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTG9naW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/AulasAluraBackEnd/Treino/ProjetosBlazor/ProjetosBlazorAulas/MudBlazorAgendamento/MudBlazorAgendamentos/MudBlazorApp/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/AulasAluraBackEnd/Treino/ProjetosBlazor/ProjetosBlazorAulas/MudBlazorAgendamento/MudBlazorAgendamentos/MudBlazorApp/Components/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AulasAluraBackEnd/Treino/ProjetosBlazor/ProjetosBlazorAulas/MudBlazorAgendamento/MudBlazorAgendamentos/MudBlazorApp/Components/Pages/Agendamentos/CreateAgendamentos.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZ2VuZGFtZW50b3NcQ3JlYXRlQWdlbmRhbWVudG9zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/AulasAluraBackEnd/Treino/ProjetosBlazor/ProjetosBlazorAulas/MudBlazorAgendamento/MudBlazorAgendamentos/MudBlazorApp/Components/Pages/Agendamentos/IndexAgendamentos.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZ2VuZGFtZW50b3NcSW5kZXhBZ2VuZGFtZW50b3MucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/AulasAluraBackEnd/Treino/ProjetosBlazor/ProjetosBlazorAulas/MudBlazorAgendamento/MudBlazorAgendamentos/MudBlazorApp/Components/Pages/Auth.razor]

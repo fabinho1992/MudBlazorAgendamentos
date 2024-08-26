@@ -1,0 +1,47 @@
+﻿@page "/agendamentos/create"
+@using Microsoft.AspNetCore.Authorization
+@inherits CreateAgendamentosPage
+@attribute [Authorize(Roles = "Atendente")]
+
+<PageTitle>Agendamentos</PageTitle>
+
+<MudText Typo="Typo.h3">Cadastro de Agendamento</MudText>
+
+<MudPaper Class="pa-8 mt-4">
+	<EditForm Model="@InputModel" OnValidSubmit="OnValidSubmit">
+		<DataAnnotationsValidator/>
+
+		<MudTextField Label="Observação" @bind-Value="InputModel.Observacao" Variant="Variant.Outlined"
+				For="(()=> InputModel.Observacao)" HelperText="Campo obrigatório" >
+		</MudTextField>
+		<MudSelect  Label="Médico" Variant=Variant.Outlined AnchorOrigin="Origin.BottomCenter"
+				   HelperText="Campo Obrigatório" @bind-Value="InputModel.MedicoId">
+			@foreach (var medico in Medicos)
+			{
+				<MudSelectItem Value="@medico.Id">@medico.Nome</MudSelectItem>
+			}
+		</MudSelect>
+		<MudSelect  Label="Paciente" Variant=Variant.Outlined AnchorOrigin="Origin.BottomCenter"
+				   HelperText="Campo Obrigatório" @bind-Value="InputModel.PacienteId">
+			@foreach (var paciente in Pacientes)
+			{
+				<MudSelectItem Value="@paciente.Id">@paciente.Nome</MudSelectItem>
+			}
+		</MudSelect>
+		<MudDatePicker @bind-Date="date"  MinDate="minDate" Variant="Variant.Outlined"
+					   Label="Data da Consulta" DateFormat="dd/MM/yy">
+		</MudDatePicker>
+		<MudTimePicker Label="Hora da Consulta" @bind-Time="time" Variant="Variant.Outlined"
+						AmPm="false">
+		</MudTimePicker>
+		<MudButton Variant="Variant.Filled" StartIcon="@Icons.Material.Filled.Save"
+				   Color="Color.Info" Size="Size.Large" ButtonType="ButtonType.Submit" Class="mt-4">
+			Salvar
+		</MudButton>
+		<MudButton Variant="Variant.Filled" StartIcon="@Icons.Material.Filled.Refresh"
+				   Color="Color.Primary" Size="Size.Large" Href="/agendamentos" Class="mt-4">
+			Voltar
+		</MudButton>
+
+	</EditForm>
+</MudPaper>

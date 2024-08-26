@@ -28,7 +28,7 @@ namespace MudBlazorApp.Repositories.Agendamentos
 
         public async Task<IEnumerable<Agendamento>> GetAllAsync()
         {
-            return await _context.Agendamentos
+            return await _context.Agendamentos.Include(x => x.Medico).Include(x => x.Paciente)
                 .AsNoTracking().ToListAsync();
         }
 
